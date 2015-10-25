@@ -1,0 +1,174 @@
+Rank	P-value	Position (hg19)	SCZ	Protein coding genes	OMIM	NHGRI GWAS catalog	KO phenotype
+1	3.48e-31	chr6:28303247-28712247	Y	Locus too broad		"SCZ pmid=19571808/19571809/
+19571811"	
+2	3.362e-19	chr1:97792625-98559084	Y	DPYD MIR137 (micro-RNA)	DPYD 5-fluorouracil toxicity; DPYD Dihydropyrimidine dehydrogenase deficiency	ASD-ADHD-BIP-MDD-SCZ p=2E-11 pmid=23453885; SCZ p=2E-11 pmid=21926974	
+3	6.198e-19	chr10:104423800-105165583	Y	"ARL3 AS3MT C10orf32 CNNM2
+CYP17A1 INA NT5C2 PCGF6
+PDCD11 SFXN2 TAF5 TRIM8
+USMG5 WBP1L"	"CNNM2 Hypomagnesemia 6, renal; CYP17A1 17,20-lyase deficiency, isolated; CYP17A1 17- alpha-hydroxylase/17,20-lyase deficiency"	ASD-ADHD-BIP-MDD-SCZ p=2E-9 pmid=23453885; Blood pressure p=4E-17 pmid=21572416; Coronary heart disease p=1E-9 pmid=21378990; Intracranial aneurysm p=1E-9 pmid=20364137; SCZ p=2E-9 pmid=22688191; Systolic blood pressure p=7E-26 pmid=21909115	Arl3 nervous; Cyp17a1 behavioral neurological; Ina nervous
+4	3.217e-18	chr12:2321860-2523731	Y	CACNA1C	CACNA1C Brugada syndrome 3; CACNA1C Timothy syndrome	SCZ: pmid=22614287; ASD-ADHD- BIP-MDD-SCZ p=5E-9 pmid=23453885; Bipolar disorder p=2E-8 pmid=21926972; Bipolar disorder and major depressive disorder (combined) p=3E-8 pmid=20351715; Red blood cell traits p=3E-9 pmid=23222517	Cacna1c behavioral neurological nervous
+5	1.737e-15	chr8:143309503-143330533	Y	TSNARE1		SCZ pmid = 23974872	
+6	7.98e-15	chr4:103146888-103198090	N	SLC39A8		Blood pressure p=1E-10 pmid=21909110; Body mass index p=2E-13 pmid=20935630; Diastolic blood pressure p=2E-17 pmid=21909115; HDL cholesterol p=7E-11 pmid=20686565; Systolic blood pressure p=3E-14 pmid=21909115	
+7	8.2e-15	chr7:1896096-2190096	Y	MAD1L1	"MAD1L1 Lymphoma, somatic; MAD1L1 Prostate cancer, somatic"	SCZ p=2E-9 pmid=22688191	
+8	1.099e-14	chr5:60499143-60843543	Y	ZSWIM6		SCZ p=4E-8 pmid=22688191	
+9	1.859e-14	chr12:123448113-123909113	Y	"ABCB9 ARL6IP4 C12orf65
+CDK2AP1 MPHOSPH9
+OGFOD2 PITPNM2 RILPL2
+SBNO1 SETD8"	"C12orf65 Combined oxidative phosphorylation deficiency 7; C12orf65 Spastic paraplegia 55, autosomal recessive"	SCZ pmid = 23974872; HDL cholesterol p=8E-9 pmid=20686565; Head circumference (infant) p=8E-9 pmid=22504419; Height p=4E-15 pmid=20881960	
+10	5.652e-14	chr2:200715237-200848037	Y	"AC073043.2 C2orf47 C2orf69
+TYW5"		SCZ pmid = 23974872	
+11	8.296e-14	chr15:91416560-91429040	N	FES FURIN MAN2A2			Fes nervous; Furin nervous
+12	1.053e-13	chr3:36843183-36945783	N	TRANK1		Bipolar disorder p=1E-12 pmid=22182935	
+13	1.363e-13	chr14:103996234-104184834	N	"AL049840.1 APOPT1 BAG5
+CKB KLC1 PPP1R13B TRMT61A XRCC3 ZFYVE21"	"XRCC3 Breast cancer, susceptibility to; XRCC3
+Melanoma, cutaneous malignant, 6"		Ckb behavioral neurological nervous; Klc1 behavioral neurological nervous
+14	2.439e-13	chr15:78803032-78926732	N	"AC027228.1 AGPHD1 CHRNA3
+CHRNA5 CHRNB4 IREB2
+PSMA4"	"CHRNA3 Lung cancer susceptibility 2; CHRNA5 Lung cancer susceptibility 2; CHRNA5
+Nicotine dependence, susceptibility to"	"Airflow obstruction p=3E-9 pmid=22837378; Chronic obstructive pulmonary disease p=1E-10 pmid=19300482; Lung adenocarcinoma p=2E-51 pmid=19836008; Lung cancer p=3E-
+26 pmid=19654303; Nicotine dependence p=6E-20 pmid=18385739; Response to tocilizumab in rheumatoid arthritis p=4E-8 pmid=22491018; Smoking behavior p=3E-73 pmid=20418890"	Chrna3 behavioral neurological nervous; Chrna5 behavioral neurological nervous; Chrnb4 behavioral neurological nervous; Ireb2 behavioral neurological nervous
+15	3.034e-13	chr7:110843815-111205915	N	IMMP2L			
+16	1.088e-12	chr11:130714610-130749330	Y	SNX19		SCZ pmid = 23974872	
+17	1.53e-12	chr2:185601420-185785420	Y	ZNF804A		SCZ pmid = 20368704	
+18	1.606e-12	chrX:21193266-21570266	N	CNKSR2			
+19	1.971e-12	chr10:18681005-18770105	Y	CACNB2	CACNB2 Brugada syndrome 4	SCZ pmid = 23974872; Blood pressure p=2E-16 pmid=21909110; Diastolic blood pressure p=1E-8 pmid=19430479	Cacnb2 nervous
+20	2.015e-12	chr12:57428314-57682971	N	"LRP1 MYO1A NAB2 NDUFA4L2
+NXPH4 R3HDM2 SHMT2
+STAC3 STAT6 TAC3
+TMEM194A"	"MYO1A Deafness, autosomal dominant 48; TAC3
+Hypogonadotropic hypogonadism
+10 with or without anosmia"	Abdominal aortic aneurysm p=5E-10 pmid=22055160; IgE levels p=2E-12 pmid=22075330; Migraine p=4E-9 pmid=21666692; Pulmonary function p=1E-8 pmid=21946350	Nab2 behavioral neurological nervous
+21	2.025e-12	chr1:73766426-73991366	Y	LRRIQ3 *		SCZ pmid = 23974872	
+22	2.315e-12	chr2:233559301-233753501	Y	"C2orf82 EFHD1 GIGYF2
+KCNJ13 NGEF"	GIGYF2 Parkinson disease 11; KCNJ13 Leber congenital amaurosis 16; KCNJ13 Snowflake vitreoretinal degeneration	SCZ pmid = 23974872	Gigyf2 behavioral neurological nervous; Ngef nervous
+23	2.804e-12	chr11:124610007-124620147	Y	ESAM MSANTD2 NRGN VSIG2		SCZ pmid=19571808	Nrgn behavioral neurological nervous
+24	3.337e-12	chr18:52747686-53200117	Y	TCF4	"TCF4 Diabetes mellitus, type 2, susceptibility to; TCF4 Pitt-Hopkins syndrome"	ASD-ADHD-BIP-MDD-SCZ p=3E-10 pmid=23453885; SCZ p=3E-10 pmid=23571483	Tcf4 nervous
+25	1.259e-11	chr11:46342943-46751213	Y	"AMBRA1 ARHGAP1 ATG13
+CHRM4 CKAP5 CREB3L1
+DGKZ F2 HARBI1 MDK ZNF408"	"F2 Dysprothrombinemia; F2
+Hypoprothrombinemia; F2
+Pregnancy loss, recurrent, susceptibility to, 2; F2 Stroke,
+ischemic, susceptibility to; F2
+Thrombophilia due to thrombin defect; MDK Mesomelic dysplasia, Kantaputra type"	SCZ pmid=21747397; Bone mineral density p=5E-18 pmid=22504420; Bone mineral density (hip) p=4E-9 pmid=19801982; HDL cholesterol p=3E-18 pmid=20686565	Ambra1 nervous; Arhgap1 nervous; Chrm4 behavioral neurological nervous; F2 nervous; Mdk behavioral neurological nervous
+26	1.301e-11	chr3:180588843-181205585	N	CCDC39 DNAJC19 FXR1	"CCDC39 Ciliary dyskinesia, primary, 14; DNAJC19 3- methylglutaconic aciduria, type V"		Fxr1 behavioral neurological
+27	1.462e-11	chr20:37361494-37485994	N	ACTR5 PPP1R16B SLC32A1			Slc32a1 behavioral neurological nervous
+28	1.473e-11	chr2:57943593-58502192	Y	FANCL VRK2	"FANCL Fanconi anemia, complementation group L"	SCZ pmid= 21791550	
+29	1.618e-11	chr15:84661161-85153461	N	"ADAMTSL3 GOLGA6L4
+ZSCAN2"			
+30	1.971e-11	chr18:53453389-53804154	N	TCF4 *			
+31	2.064e-11	chr2:198148577-198835577	N	"ANKRD44 BOLL COQ10B HSPD1 HSPE1 MARS2 PLCL1
+RFTN2 SF3B1"	"HSPD1 Leukodystrophy, hypomyelinating, 4; HSPD1
+Spastic paraplegia 13, autosomal
+dominant; SF3B1 Myelodysplastic syndrome, somatic"	Intracranial aneurysm p=4E-8 pmid=18997786	Plcl1 behavioral neurological nervous
+32	2.069e-11	chr22:41408556-41675156	N	"CHADL EP300 L3MBTL2
+RANGAP1"	"EP300 Colorectal cancer, somatic; EP300 Rubinstein-Taybi syndrome
+2"	Crohn's disease p=3E-8 pmid=22936669	Ep300 nervous
+33	2.607e-11	chr8:111460061-111630761	N	KCNV1 *			
+34	2.692e-11	chr3:2532786-2561686	N	CNTN4			Cntn4 nervous
+35	2.749e-11	chr11:113317794-113423994	N	DRD2	"DRD2 Dystonia, myoclonic"		Drd2 behavioral neurological nervous
+36	3.874e-11	chr11:133808069-133852969	N	IGSF9B			
+37	4.264e-11	chr3:52541105-52903405	Y	"GLT8D1 GNL3 ITIH1 ITIH3 ITIH4 MUSTN1 NEK4 NISCH NT5DC2 PBRM1 SMIM4
+SPCS1 STAB1 TMEM110
+TMEM110-MUSTN1"	"ITIH4 Hypercholesterolemia,susceptibility to"	"SCZ pmid=22614287; Adiponectin levels p=1E-13 pmid=22479202; ASD-ADHD-BIP-MDD-SCZ p=3E-12 pmid=23453885; Immune response to smallpox (secreted IL-2) p=2E-9 pmid=22610502; Major mood
+disorders p=2E-9 pmid=20081856; Osteoarthritis p=5E-9 pmid=22763110"	
+38	4.548e-11	chr16:29924377-30144877	N	"ALDOA ASPHD1 C16orf92
+DOC2A FAM57B GDPD3
+HIRIP3 INO80E KCTD13
+MAPK3 PPP4C SEZ6L2 TAOK2
+TBX6 TMEM219 YPEL3"	"ALDOA Glycogen storage disease
+XII"	Pubertal anthropometrics p=9E-11 pmid=23449627	Doc2a behavioral neurological nervous; Mapk3 behavioral neurological nervous; Sez6l2 behavioral neurological nervous; Tbx6 nervous
+39	4.725e-11	chr22:39975317-40016817	N	CACNA1I			
+40	7.264e-11	chr3:135807405-136615405	N	MSL2 NCK1 PCCB PPP2R3A SLC35G2 STAG1	PCCB Propionicacidemia	Fibrinogen p=6E-10 pmid=20031576; Height p=4E-9 pmid=20881960; Triglycerides p=3E-8 pmid=20686565	Nck1 behavioral neurological nervous
+41	1.055e-10	chr5:151941104-152797656	Y	GRIA1 *		SCZ pmid = 23974872	
+42	1.982e-10	chrX:68377126-68379036	N	PJA1			
+43	2.862e-10	chr17:2095899-2220799	N	SGSM2 SMG6 SRR TSR1		Aortic root size p=2E-11 pmid=19584346; Coronary heart disease p=9E-10 pmid=21378990; Esophageal cancer (squamous cell) p=2E-11 pmid=22960999; Type 2 diabetes p=3E-9 pmid=20174558	Srr behavioral neurological nervous
+44	3.332e-10	chr7:86403226-86459326	N	GRM3			Grm3 behavioral neurological
+45	3.384e-10	chr15:61831663-61909663	N	VPS14C *			
+46	3.394e-10	chr1:44029384-44128084	N	KDM4A PTPRF			Ptprf behavioral neurological nervous
+47	3.634e-10	chr19:19374022-19658022	Y	"CILP2 GATAD2A HAPLN4
+MAU2 NCAN NDUFA13 PBX4
+SUGP1 TM6SF2 TSSK6"	"NDUFA13 Thyroid carcinoma, Hurthle cell"	"SCZ pmid = 23974872; Cholesterol, total p=3E-38 pmid=20686565; LDL cholesterol p=7E-22
+pmid=20686565; Triglycerides p=2E-
+29 pmid=20686565"	Gatad2a nervous; Ncan nervous
+48	4.487e-10	chr1:149998890-150242490	N	"ANP32E APH1A C1orf51
+C1orf54 CA14 OTUD7B PLEKHO1 VPS45"			Anp32e behavioral neurological; Aph1a nervous
+49	8.147e-10	chr6:84279922-84407274	N	SNAP91			
+50	8.701e-10	chr1:2372401-2402501	N	PLCH2		"Non-obstructive azoospermia p=6E-
+12 pmid=22197933"	
+51	1.009e-9	chr16:13728459-13761359	N	ERCC4 *			
+52	1.127e-9	chr7:104598064-105063064	N	MLL5 PUS7 SRPK2			
+53	1.166e-9	chr1:8411184-8638984	N	RERE SLC45A1	"RERE Leukemia, acute myeloid, with eosinophilia"	Vitiligo p=7E-15 pmid=20410501	Rere nervous
+54	1.398e-9	chr12:110723245-110723245	N	ATP2A2	ATP2A2 Acrokeratosis verruciformis; ATP2A2 Darier disease		Atp2a2 behavioral neurological
+55	1.465e-9	chr4:170357552-170646052	N	C4orf27 CLCN3 NEK1	"NEK1 Short rib-polydactyly syndrome, type IIA"		Clcn3 behavioral neurological nervous; Nek1 nervous
+56	1.644e-9	chr6:96459651-96459651	N	FUT9			
+57	1.709e-9	chr22:42315744-42689414	N	"CENPM CYP2D6 FAM109B NAGA NDUFA6 SEPT3 SHISA8
+SMDT1 SREBF2 TCF20
+TNFRSF13C WBP2NL"	"CYP2D6 Codeine sensitivity; CYP2D6 Debrisoquine sensitivity; NAGA Kanzaki disease; NAGA Schindler disease, type I; NAGA Schindler disease, type III; TNFRSF13C Immunodeficiency, common variable, 4"		Sept3 nervous
+58	1.814e-9	chr2:146416922-146441832	N				
+59	2.243e-9	chr11:57386294-57682294	N	"BTBD18 C11orf31 CLP1
+CTNND1 MED19 SERPING1
+TMX2 YPEL4 ZDHHC5"	"SERPING1 Angioedema, hereditary, types I and II; SERPING1 Complement component 4, partial deficiency of"		Ctnnd1 nervous
+60	2.554e-9	chr11:24367320-24412990	N	LUZP2 *			
+61	2.86e-9	chr1:30412551-30437271	N				
+62	3.278e-9	chr7:137039644-137085244	N	DGKI PTN			Ptn behavioral neurological nervous
+63	3.613e-9	chr9:84630941-84813641	N	TLE1			
+64	3.73e-9	chr1:243503719-244002945	Y	AKT3 SDCCAG8	AKT3 Megalencephaly- polymicrogyria-polydactyly- hydrocephalus syndrome; SDCCAG8 Senior-Loken syndrome 7	SCZ pmid=22614287	Akt3 behavioral neurological nervous
+65	4.178e-9	chr15:40566759-40602237	N	ANKRD63 PAK6 PLCB2	PLCB2 Platelet PLC beta-2 deficiency		Pak6 behavioral neurological nervous
+66	4.489e-9	chr19:30981643-31039023	N	ZNF536		Myopia (pathological) p=3E-12 pmid=23049088	
+67	4.606e-9	chr5:88581331-88854331	N	MEF2C *			
+68	4.642e-9	chr3:17221366-17888266	N	TBC1D5			
+69	4.666e-9	chr5:137598121-137948092	N	"CDC25C CTNNA1 EGR1 ETF1
+FAM53C GFRA3 HSPA9
+KDM3B REEP2"			Ctnna1 nervous; Egr1 behavioral neurological nervous; Gfra3 nervous
+70	4.801e-9	chr14:99707919-99719219	N	BCL11B			Bcl11b behavioral neurological
+71	4.863e-9	chr14:72417326-72450526	N	AC005477.1 RGS6			
+72	5.046e-9	chr5:45291475-45393775	N	HCN1			Hcn1 behavioral neurological nervous
+73	5.97e-9	chr8:60475469-60954469	N	CA8 *			
+74	7.388e-9	chr2:72357335-72368185	N	CYP26B1	CYP26B1 Craniosynostosis with radiohumeral fusions and other skeletal and craniofacial anomalies		
+75	7.539e-9	chr11:123394636-123395986	N	GRAMD1B			
+76	8.333e-9	chr2:200161422-200309252	N	SATB2	SATB2 Cleft palate and mental retardation		
+77	8.408e-9	chr2:193848340-194028340	Y	PCGEM1 *		SCZ pmid = 21926974	
+78	9.469e-9	chr4:176851001-176875801	N	GPM6A			
+79	1.058e-8	chr8:4177794-4192544	Y	CSMD1		SCZ=pmid 21926974; ASD-ADHD- BIP-MDD-SCZ p=4E-8 pmid=23453885; SCZ p=2E-8 pmid=21926974	
+80	1.115e-8	chr2:225334096-225467796	N	CUL3	"CUL3 Pseudohypoaldosteronism, type IIE"		
+81	1.215e-8	chr8:89340626-89753626	Y	MMP16		SCZ pmid = 21926974	
+82	1.28e-8	chr16:9875519-9970219	N	GRIN2A	GRIN2A Epilepsy with neurodevelopmental defects		Grin2a behavioral neurological nervous
+83	1.411e-8	chr14:30189985-30190316	N	PRKD1			
+84	1.432e-8	chr3:63792650-64004050	N	ATXN7 C3orf49 PSMD6 THOC7	ATXN7 Spinocerebellar ataxia 7		Atxn7 behavioral neurological nervous
+85	1.513e-8	chr16:67709340-68311340	N	"ACD C16orf86 CENPT CTRL DDX28 DPEP2 DPEP3 DUS2L EDC4 ENKD1 ESRP2 GFOD2
+LCAT NFATC3 NRN1L NUTF2
+PARD6A PLA2G15 PSKH1
+PSMB10 RANBP10 SLC12A4
+SLC7A6 SLC7A6OS THAP11
+TSNAXIP1"	LCAT Fish-eye disease; LCAT Norum disease	HDL cholesterol p=8E-33 pmid=20686565; Metabolic syndrome p=2E-10 pmid=22399527	Nfatc3 behavioral neurological nervous
+86	1.585e-8	chr2:149390778-149520178	N	EPC2			
+87	1.769e-8	chr17:17722402-18030202	N	"ATPAF2 DRG2 GID4 LRRC48
+MYO15A RAI1 SREBF1
+TOM1L2"	"ATPAF2 Mitochondrial complex V (ATP synthase) deficiency, nuclear type 1; MYO15A Deafness, autosomal recessive 3; RAI1
+Smith-Magenis syndrome"		Myo15 behavioral neurological nervous; Rai1 behavioral neurological nervous; Tom1l2 behavioral neurological nervous
+88	1.787e-8	chr15:70573672-70628872	N	TLE3 *			
+89	1.873e-8	chr16:58669293-58682833	N	CNOT1 SLC38A7			
+90	2.096e-8	chr8:27412627-27453627	N	CLU EPHX2	"EPHX2 Hypercholesterolemia, familial, due to LDLR defect, modifier of; GULOP Scurvy"		Clu nervous; Gulo behavioral neurological nervous
+91	2.205e-8	chrX:5916533-6032733	N	NLGN4X	"NLGN4X Asperger syndrome susceptibility, X-linked 2; NLGN4X Autism susceptibility, X-linked 2; NLGN4X Mental retardation, X- linked"		
+92	2.688e-8	chr6:73132701-73171901	N	RIMS1	RIMS1 Cone-rod dystrophy 7		Rims1 behavioral neurological nervous
+93	2.853e-8	chr7:24619494-24832094	N	DFNA5 MPP6 OSBPL3	"DFNA5 Deafness, autosomal dominant 5"		Dfna5 nervous
+94	3.053e-8	chr5:109030036-109209066	N	MAN2A1			
+95	3.056e-8	chr4:23366403-23443403	N	MIR548AJ2 *			
+96	3.145e-8	chr5:153671057-153688217	N	GALNT10			
+97	3.695e-8	chr11:109285471-109610071	N	C11orf87			
+98	3.713e-8	chr7:110034393-110106693	N	IMMP2L *			
+99	3.906e-8	chr12:29905265-29940365	N	TMTC1			
+100	4.417e-8	chr7:131539263-131567263	N	PODXL *			
+101	4.448e-8	chr1:177247821-177300821	N	FAM5B			
+102	4.468e-8	chr1:207912183-208024083	N	C1orf132 CD46 CR1L	"CD46 Hemolytic uremic syndrome, atypical, susceptibility to, 2"		
+103	4.559e-8	chr20:48114136-48131649	N	KCNB1 PTGIS	"PTGIS Hypertension, essential"		
+104	4.591e-8	chr12:92243186-92258286	N	C12orf79 *			
+105	4.615e-8	chr2:162798555-162910255	N	DPP4 SLC4A10			Slc4a10 behavioral neurological nervous
+106	4.686e-8	chr19:50067499-50135399	N	"NOSIP PRR12 PRRG2 RCN3
+RRAS SCAF1"			
+107	4.843e-8	chr12:103559855-103616655	N	C12orf42			
+108	4.849e-8	chr5:140023664-140222664	N	"AC005609.1 CD14 DND1 HARS HARS2 IK NDUFA2 PCDHA1
+PCDHA10 PCDHA2 PCDHA3
+PCDHA4 PCDHA5 PCDHA6
+PCDHA7 PCDHA8 PCDHA9
+TMCO6 WDR55 ZMAT2"	HARS Usher syndrome type 3B; HARS2 Perrault syndrome 2; NDUFA2 Leigh syndrome due to mitochondrial complex I deficiency		

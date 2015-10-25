@@ -1,6 +1,4 @@
 ###
-# R-devel
-## qsub -V -pe local 8 -l mf=40G,h_vmem=70G,h_stack=256M -cwd -b y R-devel CMD BATCH --no-save ageChanges_controls.R
 
 library(minfi)
 library(limma)

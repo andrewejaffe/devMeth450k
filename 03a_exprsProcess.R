@@ -7,12 +7,12 @@ library(GenomicRanges)
 
 # to get phenotype and processed data
 tmp = getGEOSuppFiles("GSE30272")
-system("tar xvf GSE30272/GSE30272_RAW.tar")
-system("gunzip *.gz")
-system("mv *.txt GSE30272/")
+system("tar xvf GSE30272/GSE30272_RAW.tar -C GSE30272")
 fn = list.files("GSE30272", pattern="GSM",full.names=TRUE)
 
 map = Table(getGEO("GPL4611"))
+map$OligoID = as.character(map$OligoID)
+map$ID = as.character(map$ID)
 
 cols = list(R="SR_Mean", G = "SG_Mean", Rb = "SR_bkMean", Gb = "SG_bkMean")
 RGset = read.maimages(fn,columns=cols,
@@ -36,7 +36,6 @@ pd = pd[,1:10]
 pd = parsePheno(pd)
 
 colnames(p) = rownames(pd) = pd$title
-p = p[map$OligoID,] # match ordering
 
 ##### use existing data from GEMMA database
 anno = read.delim("GPL4611_noParents.an.txt", 
@@ -51,11 +50,15 @@ map$aligned = ifelse(map$ID %in% align$probe, 1, 0)
 
 ## drop those that don't align
 keepIndex=which(map$aligned  == 1)
-p = p[keepIndex,] ; map = map[keepIndex,]
+map = map[keepIndex,]
 
 ## drop those that don't match to genes
 dropIndex= which(is.na(map$Symbol) | grepl("\\|", map$Symbol))
-p = p[-dropIndex,] ; map = map[-dropIndex,]
+map = map[-dropIndex,]
+
+# filter expression
+p = p[map$OligoID,]
+identical(map$OligoID, rownames(p))
 
 ## order by age
 oo = order(pd$Age)

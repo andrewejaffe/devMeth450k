@@ -37,6 +37,7 @@ mm = match(pdM$BrNum, pdE$FileName)
 pdM = pdM[!is.na(mm),] ; pM = pM[,!is.na(mm)]
 pdE = pdE[mm[!is.na(mm)],] ; pE = pE[,mm[!is.na(mm)]]
 
+
 ## differential expression
 modE = model.matrix(~ifelse(pdM$Age < 0, 1,0))
 colnames(modE)[2] = "Fetal"
@@ -170,6 +171,8 @@ dmrTable$corrToExprsPvalue = 2*pt(-abs(dmrTable$corrToExprsTstat),
 	df = ncol(pM)-1)
 dmrTable$corrToExprsPvalueBonf = p.adjust(dmrTable$corrToExprsPvalue,
 	"bonferroni")
+dmrTable = dmrTable[dmrTable$fwer < 0.05,]
+
 save(dmrTable, file="rdas/annotated_dmr_table.rda")
 
 write.csv(dmrTable, file="tables/jaffe_suppTable3_DMRsWithExprs.csv",
@@ -194,7 +197,8 @@ nearIndex=which(!(dmrTable$description %in% c("upstream","downstream") &
 	abs(dmrTable$distance) > 5000) & 
 	dmrTable$fwer < 0.05)
 length(nearIndex)/nrow(dmrTable)	
-	
+length(nearIndex)	
+
 mean(dmrTable$corrToExprsPvalue[nearIndex] < 0.05,na.rm=TRUE)
 sum(dmrTable$corrToExprsPvalue[nearIndex] < 0.05,na.rm=TRUE)
 mean(dmrTable$corrToExprsPvalueBonf[nearIndex] < 0.05,na.rm=TRUE)
@@ -204,14 +208,6 @@ table(dmrTable$distance < 5000 | !dmrTable$region %in% c("upstream","downstream"
 prop.table(table(dmrTable$distToNearestGene < 5000,
 	dmrTable$fwer < 0.05,dnn=c("near","sig")),2)
 
-# and the correlations to expression	
-mean(dmrTable$corrToExprsPvalue[
-	dmrTable$fwer < 0.05 & dmrTable$distToNearestGene < 5000] < 0.05,
-	na.rm=TRUE)
-mean(dmrTable$corrToExprsPvalueBonf[
-	dmrTable$fwer < 0.05 & dmrTable$distToNearestGene < 5000] < 0.05,
-	na.rm=TRUE)
-	
 ### blocks ####
 blockTable = blocks$table
 blockTable = blockTable[blockTable$fwer < 0.05,]
